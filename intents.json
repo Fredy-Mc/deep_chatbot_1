@@ -1,0 +1,16 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "patterns": ["Salut", "Bonjour", "Hey", "Hello", "Il y a quelqu'un"],
+            "responses": ["Salut !", "Bonjour", "Hey", "Hello", "Bonjour, que puis-je pour vous ?"],
+            "context_set": ""
+        },
+        {
+            "tag": "Aurevoir",
+            "patterns": ["Aurevoir", "A bientôt", "Salut"],
+            "responses": ["A bientôt", "Merci de m'avoir rendu visite", "Bonne journée", "A revoir"],
+            "context_set": ""
+        }
+    ]
+}
